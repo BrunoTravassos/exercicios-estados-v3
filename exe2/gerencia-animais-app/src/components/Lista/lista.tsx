@@ -10,7 +10,7 @@ type Props = {
   animais: Animal[];
 }
 
-export function Lista({animais}:Props){
+export function Lista({animais}:Readonly<Props>){
     return(
         <ul className={style.animal__list}>
           {animais.map(animal=>(

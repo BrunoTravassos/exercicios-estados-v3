@@ -12,7 +12,7 @@ type Animal = {
     deletarAnimal:()=>void;
   }
 
-export function Controle(props:Props){
+export function Controle(props:Readonly<Props>){
     return(
         <div>
         <button className={style.confirm} onClick={props.adicionarAnimal}>Adicionar</button>
