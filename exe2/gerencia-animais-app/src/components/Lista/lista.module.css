@@ -1,0 +1,13 @@
+.animal__list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .animal__list li {
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+  }
+  
